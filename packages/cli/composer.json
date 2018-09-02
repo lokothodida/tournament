@@ -1,0 +1,33 @@
+{
+    "name": "lokothodida/tournament-cli",
+    "authors": [
+        {
+            "name": "Lawrence Okoth-Odida",
+            "email": "lawrence.okothodida@gmail.com"
+        }
+    ],
+    "repositories": {
+		"tournament": {
+			"type": "path",
+			"url": "../../game",
+			"symlink": true
+		},
+		"tournament-ai": {
+			"type": "path",
+			"url": "../ai",
+			"symlink": true
+		}
+    },
+    "autoload": {
+    	"psr-4": {
+    		"lokothodida\\Tournament\\Cli\\": "src/"
+		}
+    },
+    "require": {
+        "lokothodida/tournament": "@dev",
+        "lokothodida/tournament-ai": "@dev"
+    },
+    "scripts": {
+    	"game": "php cli.php"
+    }
+}

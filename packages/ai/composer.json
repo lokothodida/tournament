@@ -1,0 +1,24 @@
+{
+    "name": "lokothodida/tournament-ai",
+    "authors": [
+        {
+            "name": "Lawrence Okoth-Odida",
+            "email": "lawrence.okothodida@gmail.com"
+        }
+    ],
+    "require": {
+        "lokothodida/tournament": "@dev"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"lokothodida\\Tournament\\Ai\\": "src/"
+    	}
+    },
+    "repositories": {
+		"tournament": {
+			"type": "path",
+			"url": "../../game",
+			"symlink": true
+		}
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "290e590b88c8dc0b993e119fe9e82335",
+    "packages": [
+        {
+            "name": "lokothodida/tournament",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../game",
+                "reference": "f85a221a4315ad26aa1428799bd042ebec6774fc",
+                "shasum": null
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lokothodida\\Tournament\\": "src/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit --verbose --testdox"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Lawrence Okoth-Odida",
+                    "email": "lawrence.okothodida@gmail.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lokothodida/tournament": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
